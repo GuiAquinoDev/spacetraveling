@@ -1,0 +1,52 @@
+.postContainer {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    img { 
+        width: 100%;
+    }
+
+    article {
+        max-width: 721px;
+        margin: 5rem auto;
+
+        section {
+            padding: 0 .656rem;
+
+            h1 {
+                font-size: 3rem;
+                color: var(--white)
+            }
+
+            .postInfos {
+                margin: 1.5rem 0 1rem 0;
+                display: flex;
+                gap: 1.5rem;
+                align-items: center;
+
+                span, time { 
+                    display: flex;
+                    align-items: center;
+                    gap: .5rem;
+
+
+                    font-size: .875rem;
+                    color: var(--gray-300);
+                }
+            }
+
+            div span {
+                color: var(--gray-300);
+            }
+
+            .postMain h2 {
+                margin: 3.75rem 0 3rem 0;
+
+                font-size: 2.25rem;
+                font-weight: 700;
+                color: var(--white);
+            }         
+        }
+    }
+
+}

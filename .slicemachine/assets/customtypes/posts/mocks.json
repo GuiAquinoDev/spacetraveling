@@ -1,0 +1,74 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "black"
+  },
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "tie",
+    "type": "Text"
+  },
+  "subtitle": {
+    "__TYPE__": "FieldContent",
+    "value": "draw",
+    "type": "Text"
+  },
+  "author": {
+    "__TYPE__": "FieldContent",
+    "value": "both",
+    "type": "Text"
+  },
+  "banner": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+      "width": 5616,
+      "height": 3744
+    },
+    "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+    "width": 5616,
+    "height": 3744,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "content": {
+    "__TYPE__": "GroupContentType",
+    "value": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "heading",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "here",
+              "type": "Text"
+            }
+          ],
+          [
+            "body",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Incididunt ullamco exercitation exercitation consectetur dolor eiusmod Lorem aute aliqua. Do occaecat ut adipisicing pariatur aliquip ex."
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}

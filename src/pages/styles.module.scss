@@ -1,0 +1,72 @@
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 .656rem;
+
+    .posts:last-child {
+        margin-bottom: 48px;
+    }
+
+    button {
+        color: var(--pink-500);
+        font-weight: 600;
+        font-size: 1.125rem;
+        margin-top: 4rem;
+        border: 0;
+        background: transparent;
+        transition: filter 0.2s;
+    
+        &:hover {
+          filter: brightness(0.7);
+        }
+    }
+}
+
+.posts {
+    margin: 0 auto;
+
+    a {
+        display: block;
+        strong {
+            display: block;
+            font-size: 1.75rem;
+            transition: color;
+            font-weight: 700;
+
+            &:hover{
+                color: var(--pink-500);
+            }
+        }
+
+        p {
+            color: var(--gray-100);
+            font-size: 1.125rem;
+            font-weight: 400;
+            margin-top: 8px;
+        }
+
+        .author {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+
+            margin-top: 25px;
+
+            span {
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+
+                color: var(--gray-100);
+
+                font-size: .875rem;
+                font-weight: 400;
+            }
+        }
+        & + a {
+            margin-top: 48px;
+        }
+    }
+   
+
+}
