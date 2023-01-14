@@ -33,6 +33,8 @@ A aplicação foi desenvolvida usando Next.js e seus dados são servidos pelo CM
 
 As páginas da aplicação são construídas usando geração estática com atualizações a cada 5 minuto e utiliza do client-side data fetching para carregar mais posts.
 
+&#xa0;
+
 ## Conceitos abordados
 
 - Estados
